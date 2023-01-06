@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        background-color: rgb(254, 212, 157);
+        height: 100vh;
+      }
+
+      .nav {
+        display: flex;
+        position: fixed;
+        top: 0px;
+        background-color: black;
+        color: white;
+        height: 50px;
+        width: 100vw;
+        font-size: 20pt;
+      }
+
+      .nav ul {
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+      }
+      .nav ul li {
+        list-style: none;
+        width: 150px;
+        display: inline-block;
+      }
+
+      .contents {
+        display: flex;
+      }
+      .d1 {
+        background-color: rgb(140, 228, 228);
+        width: 200px;
+        height: 200px;
+        border-bottom: 1px solid black;
+      }
+      .d2 {
+        background-color: rgb(184, 137, 228);
+        width: 200px;
+        height: 200px;
+        border-bottom: 1px solid black;
+      }
+      .d3 {
+        background-color: rgb(232, 152, 152);
+        width: 200px;
+        height: 200px;
+        border-bottom: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav">
+        <ul>
+          <li>메뉴 1</li>
+          <li>메뉴 2</li>
+          <li>메뉴 3</li>
+          <li>메뉴 4</li>
+        </ul>
+      </div>
+      <div class="contents">
+        <div
+          class="d1"
+          style="
+            height: 50%;
+            text-align: center;
+            line-height: 100px;
+            z-index: 1;
+          "
+        >
+          1
+        </div>
+        <div class="d2">2</div>
+        <div class="d3">3</div>
+        <div>4</div>
+      </div>
+      <div class="contents">
+        <div class="d1">1</div>
+        <div class="d2">2</div>
+        <div class="d3">3</div>
+      </div>
+      <div class="contents" style="position: relative">
+        <div class="d1" style="position: relative; z-index: 2">1</div>
+        <div class="d2">2</div>
+        <div
+          class="d3"
+          style="position: absolute; top: 100px; left: 100px; z-index: 1"
+        >
+          3
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- 컨트롤 슈프트 p -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <img
+      src="https://images.chosun.com/resizer/s5ZhisC_voQiNXtqpCT-itSKoM4=/1200x630/smart/cloudfront-ap-northeast-1.images.arcpublishing.com/chosun/NWYWL7AHNVF2PNGF6CHSCSBSJQ.jpg"
+      alt="사진설명"
+      width="300px"
+      title="맥라렌"
+    />
+
+    <!--
+    - 상대경로 (.html) 기준
+        801호가 어디?   ==> 우리 옆강의장
+        나를 기준으로
+
+    - 절대 경로         ==> 서울 종로 코아빌딩 8층 801호
+                        
+
+    ..  : 한단계 위 폴더
+    .   : 현재 폴더
+    /   : 거기에
+-->
+    <img src="bmw xm.jpg" alt="" width="300px" />
+    <img src="../GLE.jpg" alt="" width="300px" />
+
+    <!--.mp4 
+      controls : 컨트롤할수 있는R 바가 생김
+      autoplay : 보이면 바로 재생됨
+      loop     : 끝나면 처음부터 다시 재생됨
+      -->
+    <video controls autoplay loop src="city.mp4" width="500"></video>
+    <!-- 나머지  ex)pdf
+      재생바는 있지만 전체화면은 안된다.
+    -->
+    <embed src="city.mp4" type="" width="500px" height="500px" />
+  </body>
+</html>

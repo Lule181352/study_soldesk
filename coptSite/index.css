@@ -1,0 +1,137 @@
+body {
+  padding-left: 0px;
+  /* padding-right: 100px; */
+}
+
+#headTbl {
+  width: 100%;
+  height: 80px;
+  font-size: 14pt;
+}
+
+#logoImg {
+  width: 170px;
+}
+.menuTd {
+  width: 100px;
+  text-align: center;
+}
+.menuTd2 {
+  padding-right: 45px;
+  text-align: right;
+  font-size: 8pt;
+}
+#headTbl span {
+  position: relative;
+  top: -5px;
+}
+.slideTd1 {
+  font-size: 40pt;
+  color: white;
+  font-weight: bold;
+}
+
+.slideTd2 {
+  font-size: 15pt;
+  color: white;
+}
+
+.slideTd3 button {
+  background-color: white;
+  width: 180px;
+  height: 60px;
+  font-size: 12pt;
+  border: none;
+  border-radius: 5px;
+}
+.slideTd3 button:hover {
+  opacity: 0.8;
+  /* 투명도 */
+}
+#slidTextTbl {
+  position: absolute;
+  top: 20%;
+}
+
+#productTbl {
+  text-align: center;
+  font-size: 23pt;
+  width: 100%;
+  margin-top: 100px;
+  height: 130px;
+}
+
+.pTd1 {
+  font-size: 12pt;
+}
+
+#productImgTbl {
+  width: 100%;
+  border-spacing: 0px;
+  margin-bottom: 200px;
+}
+
+#productImgTbl img {
+  max-width: 101%;
+  height: 420px;
+}
+
+#productImgTbl img:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.footerTbl {
+  background-color: #052644;
+  color: white;
+  width: 100%;
+  height: 200px;
+}
+
+.a td {
+  width: 50%;
+}
+
+.a td:nth-child(1) {
+  padding-right: 100px;
+}
+.a td:nth-child(2) {
+  padding-left: 100px;
+}
+.b {
+  border-top: 1px solid gray;
+}
+
+.b td {
+  width: 33.3%;
+  font-size: 10pt;
+}
+.b td:nth-child(1) {
+  padding-left: 100px;
+}
+.b td:nth-child(2) {
+  padding-left: 150px;
+}
+.b td:nth-child(3) {
+  padding-left: 220px;
+}
+
+.space {
+  width: 80px;
+}
+.ftd2 {
+  width: 200px;
+  font-size: 10pt;
+}
+.ftd3 {
+  width: 200px;
+  font-size: 8pt;
+}
+.c {
+  border-top: 1px solid gray;
+}
+.c span {
+  background-color: #0a4578;
+  border-radius: 20px;
+  padding: 10px;
+}

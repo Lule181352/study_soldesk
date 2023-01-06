@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index</title>
+    <script src="JS06_Func.js"></script>
+  </head>
+  <body>
+    <button onclick="call()">ㅎㅅㅎ 이름, 나이</button>
+    <h3 ondblclick="print2dan()">2단 출력!! (더블)</h3>
+    <button onclick="add(1,2)">숫자 써</button><br /><br />
+    <button onclick="printGugudan(3)">?? 단</button><br /><br />
+    <hr />
+    <input type="text" id="i1" /><button onclick="printGugudan2()">
+      단 출력
+    </button>
+
+    <hr />
+    <!-- form복습 할것!! -->
+    <form name="myForm" onsubmit=" return printGugudan3()">
+      <input type="text" name="i2" />
+      <button>단출력 2</button>
+    </form>
+
+    <hr />
+    <button
+      id="b1"
+      style="
+        background-color: black;
+        color: white;
+        width: 180px;
+        height: 80px;
+        font-size: 20pt;
+        font-weight: 300;
+      "
+      onclick=" 
+      document.getElementById('b1').style.backgroundColor='orange';
+      document.getElementById('b1').style.color='blue';
+      document.getElementById('b1').style.width='200px';
+      document.getElementById('b1').style.height='70px';
+      document.getElementById('b1').style.fontSize='30pt';
+      "
+    >
+      눌러눌러
+    </button>
+    <hr />
+    <button
+      id="b2"
+      style="
+        background-color: rgb(0, 0, 0);
+        color: white;
+        width: 180px;
+        height: 80px;
+        font-size: 20pt;
+        font-weight: 300;
+      "
+      onclick=" 
+       document.getElementById('b2').style.backgroundColor='orange';
+       document.getElementById('b2').style.color='blue';
+       document.getElementById('b2').style.width='200px';
+       document.getElementById('b2').style.height='70px';
+       document.getElementById('b2').style.fontSize='30pt';
+       "
+    >
+      내 버튼 1
+    </button>
+
+    <hr />
+    <button
+      id="b3"
+      style="
+        background-color: rgb(0, 223, 252);
+        color: rgb(244, 1, 200);
+        width: 180px;
+        height: 80px;
+        font-size: 20pt;
+        font-weight: 300;
+      "
+      onclick=" 
+   document.getElementById('b3').style.backgroundColor='purple';
+   document.getElementById('b3').style.color='white';
+   document.getElementById('b3').style.width='200px';
+   document.getElementById('b3').style.height='70px';
+   document.getElementById('b3').style.fontSize='30pt';
+   "
+    >
+      내 버튼 2
+    </button>
+
+    <hr />
+    <button
+      style="
+        background-color: rgb(0, 223, 252);
+        color: rgb(244, 1, 200);
+        width: 180px;
+        height: 80px;
+        font-size: 20pt;
+        font-weight: 300;
+      "
+      onclick=" 
+            this.style.backgroundColor='purple';
+            this.style.color='white';
+            this.style.width='200px';
+            this.style.height='70px';
+            this.style.fontSize='20pt';
+    "
+    >
+      내 버튼 50
+    </button>
+
+    <hr />
+  </body>
+</html>

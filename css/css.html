@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      h2 {
+        color: blueviolet;
+      }
+      h3 {
+        color: rgb(0, 255, 64);
+        font-size: 30pt;
+      }
+      h1 {
+        color: rgb(255, 0, 0);
+      }
+
+      .kkk {
+        color: cadetblue;
+      }
+
+      #hehe {
+        color: navy;
+      }
+      #spanRed {
+        color: red;
+        font-size: 35pt;
+      }
+      #spanBlue {
+        color: rgb(1, 1, 255);
+      }
+      p {
+        color: black;
+      }
+      /* 마우스를 올리면 색이 변한다 */
+      p:hover {
+        color: rgb(243, 7, 7);
+        transition: font-size 0.5s ease-in-out;
+      }
+      /* 클릭하면  바뀜 */
+      p:active {
+        font-size: 30pt;
+      }
+
+      h1 p {
+        font-size: 60pt;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 
+        CSS
+        HTML의 DOM객체에 디자인을 입힐수 있는 언어
+        선택자 {
+            속성명 : 값,
+            속성명 : 값,
+            ...
+        }
+
+        기본형
+            태그명  : 그거다
+            #id     : id가 그거인거
+            .class  : class가 그거인 객체'들'
+        
+        생태형
+            기본형  : 상태
+
+        조합형
+            여러개를 선택하거나, 하위 노드탐색
+ -->
+    <h2>HTML : 뼈대</h2>
+    <h2>CSS : 디자인</h2>
+    <h3>Java <span id="spanRed">Script</span> : 이벤트</h3>
+
+    <h1 class="kkk">CSS <span id="spanBlue">재밌죠?</span></h1>
+    <h1 class="kkk">곧 점심이니까</h1>
+    <h1 id="hehe">조금만 힘을 내세요</h1>
+
+    <h1>
+      생각보다
+      <p>쉬운거예요</p>
+    </h1>
+
+    <p>이제 점심입니다</p>
+  </body>
+</html>

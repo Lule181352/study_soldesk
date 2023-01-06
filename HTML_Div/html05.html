@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      header,
+      nav,
+      div,
+      footer {
+        border: 1px solid black;
+        margin: 10px;
+        font-size: 20pt;
+        text-align: center;
+      }
+
+      nav {
+        position: sticky; /* 화면에 따라서 온다 top 0까지 같이 해줘야한다*/
+        top: 0;
+        background-color: black;
+        color: white;
+      }
+
+      main {
+        display: flex;
+      }
+      main div {
+        flex-grow: 1;
+        height: 1200px;
+      }
+      footer {
+        height: 300px;
+        background-color: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <header>Titile</header>
+    <div class="header"></div>
+    <nav>Navigator</nav>
+    <main>
+      <div>Content1</div>
+      <div>Content2</div>
+      <div>Content3</div>
+    </main>
+    <footer>information, contatct,...</footer>
+  </body>
+</html>

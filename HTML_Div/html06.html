@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        background-color: antiquewhite;
+        height: 1500px;
+      }
+      .menu {
+        width: 100%;
+        background-color: black;
+        color: white;
+        position: fixed;
+        top: 0;
+        z-index: 1;
+      }
+      .content {
+        position: relative;
+        top: 100px;
+        height: 500px;
+        background-color: aquamarine;
+      }
+
+      .item {
+        background-color: rgb(238, 192, 131);
+        border: 1px solid black;
+        height: 200px;
+        width: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="menu">manu</div>
+      <div class="content">
+        <div class="item" style="position: relative; left: 200px">A</div>
+        <div class="item" style="position: absolute; top: 100px; left: 100px">
+          B
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

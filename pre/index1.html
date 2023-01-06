@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Insert title here</title>
+    <link rel="stylesheet" href="pre.css" />
+    <script type="text/javascript" src="check.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <span></span>
+        <form action="HC" method="post" name="myForm" onsubmit="return call()">
+          <div class="content">단위 변환</div>
+          <div class="content">변환할 값</div>
+          <div class="content">
+            <input name="num" placeholder="숫자 입력" pattern="[0-9-+]*" />
+          </div>
+          <div class="content">단위</div>
+          <div class="content">
+            <select name="convert" class="item1">
+              <option value="1">단위를 선택하세요!</option>
+              <option value="cm">cm → inch</option>
+              <option value="m2">㎡ → 평</option>
+              <option value="c">℃ → ℉</option>
+              <option value="km">km/h → mi/h</option>
+            </select>
+            <br />
+          </div>
+          <div class="content">
+            <button>변환하기</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>현대자동차</title>
+    <link rel="stylesheet" href="index.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <table id="mainMeneTbl">
+      <tr>
+        <td class="mainLogo">
+          <a href="index.html"
+            ><img
+              src="https://w.namu.la/s/8c41425a9ee6dcce128cd8eca38e072b98df81b51fe213c80600d87ced16da4d6b599991b3dae141e0c82128f847d3e241ce23ae960a8763dff0898b2d829107abfbf331f7191d8fd6e5c02318db1cd5c4f9b0f0eb0ac323d2dae4340a383c2e"
+          /></a>
+        </td>
+        <td>모델</td>
+        <td style="width: 120px">구매/이벤트</td>
+        <td style="width: 130px">서비스/멤버십</td>
+        <td style="width: 140px">디지털/고객지원</td>
+        <td style="width: 70px">브랜드</td>
+        <td>
+          <a
+            href="https://shop.hyundai.com/?utm_source=hyundaicom&utm_medium=affiliates&utm_campaign=2022+alwayson&utm_content=gnb"
+            ><img
+              src="https://www.hyundai.com/static/images/hyundai_shop_logo.png"
+          /></a>
+        </td>
+        <td class="myHyundai">
+          <a href="https://www.hyundai.com/kr/ko/app-download">myHyundai</a>
+        </td>
+        <td class="language">KR</td>
+        <td class="login">
+          <img src="https://www.hyundai.com/static/images/w_mypage.png" />
+        </td>
+        <td class="search">
+          <img src="https://www.hyundai.com/static/images/w_search.png" />
+        </td>
+        <td class="menu">
+          <img src="img/menu2.png" />
+        </td>
+      </tr>
+    </table>
+    <div>
+      <script>
+        $(function () {
+          $(".bxslider").bxSlider({
+            auto: true,
+            autoControls: true,
+            autoControlsCombine: true,
+            pager: true,
+            pause: 4000,
+            slideWidth: 1800,
+          });
+        });
+      </script>
+      <div id="slideTbl" class="bxslider">
+        <div style="position: relative">
+          <table>
+            <tr class="grandeur">
+              <td class="space"></td>
+              <td>The all-new GRANDEUR</td>
+            </tr>
+            <tr class="explain">
+              <td class="space"></td>
+              <td>&lt;디자인 최초 공개&gt;바로가기</td>
+            </tr>
+          </table>
+          <img
+            src="https://www.hyundai.com/contents/mainbanner/grandeur-23fc-w.png"
+          />
+          <table class="gslideFontPositionL">
+            <tr>
+              <td>BRAND</td>
+            </tr>
+          </table>
+          <table class="gslideFontPositionR">
+            <tr>
+              <td>VENUE</td>
+            </tr>
+          </table>
+        </div>
+        <div style="position: relative">
+          <table>
+            <tr class="name">
+              <td class="space"></td>
+              <td>VENUE</td>
+            </tr>
+            <tr class="explain">
+              <td class="space"></td>
+              <td>혼라이프를 즐기다</td>
+            </tr>
+          </table>
+          <img
+            src="https://www.hyundai.com/contents/mainbanner/venue-23my-w.png"
+          />
+          <table class="slideFontPositionL">
+            <tr>
+              <td>The all-new GRANDEUR</td>
+            </tr>
+          </table>
+          <table class="slideFontPositionR">
+            <tr>
+              <td>IONIQ 6</td>
+            </tr>
+          </table>
+        </div>
+        <div style="position: relative">
+          <table>
+            <tr class="name">
+              <td class="space"></td>
+              <td>IONIQ 6</td>
+            </tr>
+            <tr>
+              <td class="space"></td>
+              <td class="explain">내가 만드는 세상</td>
+            </tr>
+          </table>
+          <img
+            src="https://www.hyundai.com/contents/mainbanner/main_kv_IONIQ6_w.png"
+          />
+          <table class="slideFontPositionL">
+            <tr>
+              <td>VENUE</td>
+            </tr>
+          </table>
+          <table class="slideFontPositionR">
+            <tr>
+              <td>CASPER</td>
+            </tr>
+          </table>
+        </div>
+        <div style="position: relative">
+          <table>
+            <tr class="name">
+              <td class="space"></td>
+              <td>CASPERR</td>
+            </tr>
+            <tr class="explain">
+              <td class="space"></td>
+              <td>case by CASPER</td>
+            </tr>
+          </table>
+          <img
+            src="https://www.hyundai.com/contents/mainbanner/main_kv_CASPER_car_w.png"
+          />
+          <table class="slideFontPositionL">
+            <tr>
+              <td>IONIQ 6</td>
+            </tr>
+          </table>
+          <table class="slideFontPositionR">
+            <tr>
+              <td>BRAND</td>
+            </tr>
+          </table>
+        </div>
+        <div style="position: relative" id="worldCup">
+          <img
+            src="https://www.hyundai.com/contents/mainbanner/main_kv_brand_w.jpg"
+          />
+          <table class="worldCup">
+            <tr class="name">
+              <td>FIFA 월드컵™</td>
+            </tr>
+            <tr class="explain">
+              <td>The Greatest Moment is Yet to Come</td>
+            </tr>
+          </table>
+          <table class="WslideFontPositionL">
+            <tr>
+              <td>CASPER</td>
+            </tr>
+          </table>
+          <table class="wslideFontPositionR">
+            <tr>
+              <td>The all-new GRANDEUR</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <table class="text">
+      <tr>
+        <td>Model</td>
+      </tr>
+      <tr class="textA">
+        <td>최근 한 달 동안 고객님들이 가장 많이 구매하신 모델입니다.</td>
+      </tr>
+    </table>
+    <table id="modelImg">
+      <tr style="color: #666">
+        <td rowspan="4">
+          <a
+            href="https://www.hyundai.com/kr/ko/e/vehicles/estimation/model?model=CN07"
+          >
+            <img
+              src="https://www.hyundai.com/static/images/lineUp/SEDAN/CN07_EXT.jpg"
+          /></a>
+        </td>
+        <td rowspan="4" style="width: 100px"></td>
+        <td style="width: 50px">전체</td>
+        <td>2~30대</td>
+        <td style="width: 50px">40대</td>
+        <td>50대</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td colspan="6" style="height: 100px">
+          <a
+            href="https://www.hyundai.com/kr/ko/e/vehicles/estimation/model?model=CN07"
+            ><h1>1위.아반떼</h1></a
+          >
+        </td>
+      </tr>
+      <tr>
+        <td style="height: 40px"></td>
+      </tr>
+      <tr>
+        <td colspan="4">
+          <a
+            href="https://www.hyundai.com/kr/ko/e/vehicles/estimation/model?model=LX05"
+          >
+            <img
+              class="size"
+              src="https://www.hyundai.com/static/images/lineUp/SUV/LX05_EXT.jpg"
+            />
+            <h3>2위.팰리세이드</h3></a
+          >
+        </td>
+        <td rowspan="2" style="width: 40px"></td>
+        <td colspan="2">
+          <a
+            href="https://www.hyundai.com/kr/ko/e/vehicles/estimation/model?model=IG13"
+          >
+            <img
+              class="size"
+              src="https://www.hyundai.com/static/images/lineUp/SEDAN/IG13_EXT.jpg"
+            />
+            <h3>3위. 그랜저</h3></a
+          >
+        </td>
+      </tr>
+    </table>
+    <table class="text">
+      <tr>
+        <td>전기차</td>
+      </tr>
+      <tr class="textA">
+        <td>지구 환경을 품은 현대 자동차의 미래형 모빌리티를 경험해보세요.</td>
+      </tr>
+    </table>
+    <table id="elecCar">
+      <tr>
+        <td rowspan="10" class="elecCar">
+          <img src="https://www.hyundai.com/static/images/ev_ioniq6.jpg" />
+        </td>
+        <td rowspan="10" style="width: 55px"></td>
+        <td style="height: 20px"></td>
+      </tr>
+      <tr>
+        <td colspan="2" style="height: 20px">
+          <button class="new">NEW</button>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td colspan="4" class="ionic6">아이오닉6</td>
+      </tr>
+      <tr>
+        <td class="font1" colspan="2" style="height: 80px">내가 만드는 세상</td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <a href="https://www.hyundai.com/kr/ko/e/vehicles/ioniq6/intro"
+            ><button class="detail">자세히 보기</button></a
+          >
+        </td>
+      </tr>
+      <tr>
+        <!-- 자세히 보기 공간 -->
+        <td style="height: 160px"></td>
+      </tr>
+      <tr>
+        <td colspan="4" class="font2">충전소&서비스 네트워크</td>
+      </tr>
+      <tr>
+        <td colspan="4" class="font3">
+          고객님의 계신 곳 근처의 충전소 및 서비스 네트워크를 안내해 드립니다.
+        </td>
+      </tr>
+      <tr class="font4">
+        <td class="elecCar1">
+          <a
+            href="https://www.hyundai.com/kr/ko/customer-support/service-network/ev-service-network"
+            >전기차 &gt
+          </a>
+        </td>
+        <td style="width: 160px">
+          <a
+            href="https://www.hyundai.com/kr/ko/customer-support/service-network/fcev-service-network"
+            >수소전기차 &gt</a
+          >
+        </td>
+        <td class="elcimg" rowspan="2">
+          <img src="https://www.hyundai.com/static/images/ev_icon_m.jpg" />
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" style="height: 90px"></td>
+      </tr>
+    </table>
+    <table class="text">
+      <tr>
+        <td>myHyundai</td>
+      </tr>
+      <tr class="textA">
+        <td>
+          이제, 단순히 APP을 넘어서 당신의 카라이프를 책임질 <br />
+          ‘라이프 플랫폼 myHyundai’ 를 만나보세요.
+        </td>
+      </tr>
+    </table>
+    <table class="text">
+      <tr>
+        <td>현대 Shop</td>
+      </tr>
+      <tr class="textA">
+        <td>현대자동차 공식 온라인몰에서 다양한 상품을 확인해보세요.</td>
+      </tr>
+    </table>
+
+    <table class="text">
+      <tr>
+        <td>Brand</td>
+      </tr>
+      <tr class="textA">
+        <td>
+          지속가능한 미래로의 연결을 추구하는 현대자동차의 브랜드 캠페인을
+          만나보세요..
+        </td>
+      </tr>
+    </table>
+    <table class="text">
+      <tr>
+        <td>Events</td>
+      </tr>
+      <tr class="textA">
+        <td>
+          고객님을 위한 스페셜한 이벤트를 통해 즐거운 행운과 경품을 만나보세요.
+        </td>
+      </tr>
+    </table>
+    <div>
+      <script>
+        $(function () {
+          $(".bxslider2").bxSlider({
+            mode: "fade",
+            captions: true,
+            // slideWidth: 1600,
+          });
+        });
+      </script>
+      <div id="event" class="bxslider2">
+        <div class="flex-container">
+          <div class="slideSize">
+            <img
+              src="https://www.hyundai.com/content/dam/hyundai/kr/ko/data/event/2022/11/08/event-hyundai-digital-art-contest-banner-739x489.png"
+            />
+            현대 자동차 디지털 아트 콘테스트
+            <br />자유로운 상상과 도전을 꿈꾸는 H-ART 크루를 찾습니다.
+            <br />2022-11-09 ~ 2022-12-02
+          </div>
+          <div class="slideSize">
+            <img
+              src="https://www.hyundai.com/content/dam/hyundai/kr/ko/data/event/2022/11/04/event-bluemembers-megabox-black-panther-banner-739x489.jpg"
+            />
+            블루 멤버스 고객 초청 이벤트 3탕[메가박스]
+            <br />더 울장하고 화려해진 블랙팬서2를 블루 멤버스와 함꼐
+            즐겨보세요<br />2022-11-07 ~ 2022-11-30
+          </div>
+          <div class="slideSize">
+            <img
+              src="https://www.hyundai.com/content/dam/hyundai/kr/ko/data/event/2022/11/04/event-bluemembers-hmc-with-lg-bestshop-banner-739x489.jpg"
+            />
+            블루 멤버스 포인트 있는 사람 LG전자 베스트걉으로 모여라!
+            <br />LG가전 구매하기소 블루멤버스만의 다양한 혜택과 경품
+            받아가세요! <br />2022-11-07 ~ 2-22-12-31
+          </div>
+        </div>
+        <div class="flex-container">
+          <div class="slideSize">
+            <img
+              src="https://www.hyundai.com/content/dam/hyundai/kr/ko/data/event/2022/11/03/event-hyundaishop-h-day-november-2022-banner-739x489.jpg"
+            />
+            11월 H-Day차량용품 단 하루 특가 최대 53% 할인+퀴즈 이벤트
+            <br />다가오는 겨울, 든든하게 준비해요!<br />2022-11-04 ~ 2022-11-28
+          </div>
+          <div class="slideSize">
+            <img
+              src="https://www.hyundai.com/content/dam/hyundai/kr/ko/data/event/2022/11/01/event-korea-sale-festta-with-casper-2022-banner-739x489-01.jpg"
+            />
+            CASPER와 함꼐하는 2022 코리안 세일페스타
+            <br />캐스퍼가 준비한 역대급 혜택을 지금 바로 만나보세요!<br />2022-11-01
+            ~ 2022-11-30
+          </div>
+          <div class="slideSize">
+            <img
+              src="https://www.hyundai.com/content/dam/hyundai/kr/ko/data/event/2022/10/28/event-bluemembers-10-million-celebration-banner-739x489.jpg"
+            />
+            천만다행 이벤트
+            <br />숨어있는 포인트 찾고 경품 받자!<br />2022-11-07 ~ 2022-11-13
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <table class="text">
+      <tr>
+        <td>현대자동차 소식</td>
+        <td><img src="img/logo.psd" /></td>
+      </tr>
+    </table>
+    <table id="footer">
+      <tr>
+        <td colspan="13" style="height: 50px"></td>
+      </tr>
+      <tr>
+        <td rowspan="4" style="width: 190px"></td>
+        <td rowspan="4" style="width: 130px">
+          <img src="https://www.hyundai.com/static/images/logo_footer.png" />
+        </td>
+        <td style="width: 85px">모바일 App</td>
+        <td style="width: 78px">저작권안내</td>
+        <td style="width: 130px">개인정보 처리방침</td>
+        <td style="width: 72px">이용약관</td>
+        <td style="width: 410px">프라이버시 센터</td>
+        <td class="iconImg" style="width: 40px">
+          <img src="img/facebookIcon.png" />
+        </td>
+        <td class="iconImg" style="width: 40px">
+          <img src="img/youtubeIcon.png" />
+        </td>
+        <td class="iconImg" style="width: 40px">
+          <img src="img/naverIcon.png" />
+        </td>
+        <td class="iconImg" style="width: 40px">
+          <img src="img/twitterIcon.png" />
+        </td>
+        <td class="iconImg" style="width: 40px">
+          <img src="img/instagramIcon.png" />
+        </td>
+        <td style="width: 160px"></td>
+      </tr>
+      <tr>
+        <td colspan="2" style="width: 150px">윤리경영 사이버 감사실</td>
+        <td colspan="2" style="width: 200px">영상정보처리기기 운영관리방침</td>
+        <td>사이트맵</td>
+        <td colspan="5">
+          <button class="fbutton">Family Site</button>
+        </td>
+
+        <td style="width: 160px"></td>
+      </tr>
+      <tr>
+        <!-- <td rowspan="2"></td> -->
+        <td colspan="12">고객센터 : 080-600-6000(승용), 080-200-6000(상용)</td>
+      </tr>
+      <tr>
+        <td colspan="12">
+          COPYRIGHT ⓒ HYUNDAI MOTOR COMPANY. ALL RIGHTS RESERVED.
+        </td>
+      </tr>
+      <tr>
+        <td colspan="13" style="height: 50px"></td>
+      </tr>
+    </table>
+    <table id="footer2">
+      <tr>
+        <td colspan="12" style="height: 50px"></td>
+      </tr>
+      <tr>
+        <td style="width: 210px"></td>
+        <td>
+          <img
+            src="https://www.hyundai.com/content/dam/hyundai/kr/ko/images/common/footer-mark-wa.png"
+          />
+        </td>
+        <td style="width: 170px">웹 접근성 품질인증</td>
+        <td>
+          <img
+            src="https://www.hyundai.com/content/dam/hyundai/kr/ko/images/common/footer-mark01.png"
+          />
+        </td>
+        <td style="width: 160px">우수디자인 지식경제부선정</td>
+        <td>
+          <img
+            src="https://www.hyundai.com/content/dam/hyundai/kr/ko/images/common/footer-mark03.png"
+          />
+        </td>
+        <td style="width: 180px">가족친화 우수기관</td>
+        <td>
+          <img
+            src="https://www.hyundai.com/content/dam/hyundai/kr/ko/images/common/footer-mark04.png"
+          />
+        </td>
+        <td style="width: 170px">
+          2021년 한국서비스품질지수 (KS-<br />SQI) 자동차 A/S 부문 7년 연속 1위
+        </td>
+        <td>
+          <img
+            src="https://www.hyundai.com/content/dam/hyundai/kr/ko/images/common/img_mark_ksqei.png"
+          />
+        </td>
+        <td>2022년 한국품질만족지수 (KS-<br />QEI) 조사 12개 부문 1위</td>
+        <td style="width: 180px"></td>
+      </tr>
+      <tr>
+        <td style="width: 190px"></td>
+        <td>
+          <img
+            src="https://www.hyundai.com/content/dam/hyundai/kr/ko/images/common/footer-mark06.png"
+          />
+        </td>
+        <td>
+          2022년 국가고객만족도 (NCSI)<br />
+          자동차기업 최초 조사대상 전부문<br />
+          9년 연속 1위 수상 (준중형, 중형,<br />
+          준대형, 대형, RV)
+        </td>
+        <td>
+          <img
+            src="https://www.hyundai.com/content/dam/hyundai/kr/ko/images/common/footer-mark07.png"
+          />
+        </td>
+        <td>
+          KMAC 선정<br />
+          2022년 한국산업의 고객만족도<br />
+          일반승용차 부문 29년 연속<br />
+          RV승용차 부문 19년 연속 1위
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td colspan="12" style="height: 80px"></td>
+      </tr>
+    </table>
+  </body>
+</html>

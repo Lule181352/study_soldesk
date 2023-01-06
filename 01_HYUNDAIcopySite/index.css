@@ -1,0 +1,308 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding-top: 100px;
+}
+
+#mainMeneTbl {
+  width: 100%;
+  padding-right: 3%;
+  padding-left: 3%;
+  height: 100px;
+  text-align: center;
+  font-size: 11pt;
+  font-weight: 600;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  background-color: rgba(240, 248, 255, 0.95);
+}
+a:link {
+  color: black;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.mainLogo {
+  text-align: left;
+  width: 350px;
+}
+
+.mainLogo img {
+  width: 180px;
+}
+
+.myHyundai {
+  width: 196px;
+  text-align: right;
+}
+.language {
+  width: 50px;
+}
+.login {
+  width: 40px;
+  text-align: right;
+}
+.search {
+  width: 40px;
+  text-align: right;
+}
+.menu {
+  width: 40px;
+  text-align: right;
+}
+.menu img {
+  width: 38px;
+}
+/* ======================================================================= */
+/* #slideTbl {
+  margin-top: 50px;
+} */
+
+/* max-width랑 width의 차이 */
+#slideTbl img {
+  margin: auto;
+  max-width: 100%;
+  height: 100%;
+}
+.bx-viewport {
+  width: 100% !important;
+  height: 700px !important;
+}
+
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+  text-align: center !important;
+  width: 100% !important;
+}
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
+  right: 0;
+  width: 1390px !important;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active,
+.bx-wrapper .bx-pager.bx-default-pager a:focus {
+  background: #007fa8 !important;
+}
+
+.space {
+  width: 180px;
+}
+
+.grandeur {
+  font-size: 50pt;
+  font-weight: bolder;
+}
+
+.name {
+  margin-left: 300px;
+  font-size: 60pt;
+  font-weight: bolder;
+}
+.explain {
+  font-size: 17pt;
+  font-weight: 600;
+}
+#worldCup {
+  margin-top: -50px;
+}
+#worldCup img {
+  background-size: auto;
+  width: 1800px;
+  height: 800px;
+}
+
+.worldCup {
+  margin-left: 180px;
+  position: absolute;
+  top: 12%;
+}
+.gslideFontPositionL {
+  max-width: 100%;
+  margin-left: 50px;
+  position: absolute;
+  top: 66%;
+  font-size: 15pt;
+}
+.gslideFontPositionR {
+  max-width: 100%;
+  margin-left: 1490px;
+  position: absolute;
+  top: 66%;
+  font-size: 15pt;
+}
+.slideFontPositionL {
+  max-width: 100%;
+  margin-left: 50px;
+  position: absolute;
+  top: 63.5%;
+  font-size: 15pt;
+}
+.slideFontPositionR {
+  max-width: 100%;
+  margin-left: 1480px;
+  position: absolute;
+  top: 63.5%;
+  font-size: 15pt;
+}
+.WslideFontPositionL {
+  max-width: 100%;
+  margin-left: 50px;
+  position: absolute;
+  top: 47.5%;
+  font-size: 15pt;
+}
+.wslideFontPositionR {
+  max-width: 100%;
+  margin-left: 1340px;
+  position: absolute;
+  top: 47.5%;
+  font-size: 15pt;
+}
+
+/* ================================================================ */
+.text {
+  margin-top: 170px;
+  margin-bottom: 50px;
+  width: 100%;
+  text-align: center;
+  font-size: 30pt;
+  font-weight: bolder;
+  height: 150px;
+}
+.textA {
+  font-size: 12pt;
+  font-weight: 200;
+  color: #666;
+}
+
+#modelImg {
+  margin: auto;
+}
+
+.size {
+  max-width: 230px;
+  height: 180px;
+}
+/* ======================================================================= */
+
+#elecCar {
+  width: 100%;
+  background-color: #f7f3f2;
+}
+#elecCar a:visited {
+  color: #002c5f;
+  text-decoration: none;
+}
+.elecCar {
+  width: 1050px;
+  height: 650px;
+}
+.elecCar img {
+  width: 1050px;
+  height: 650px;
+}
+
+.new {
+  width: 40px;
+  height: 20px;
+  background-color: #007fa8;
+  color: white;
+  font-weight: bolder;
+  border: none;
+}
+.ionic6 {
+  height: 30px;
+  font-size: 30pt;
+  font-weight: 900;
+}
+.font1 {
+  font-size: 11pt;
+  font-weight: bolder;
+}
+.detail {
+  width: 125px;
+  height: 40px;
+  background-color: #002c5f;
+  color: white;
+  font-size: 14px;
+  font-weight: 800;
+  border: none;
+}
+.font2 {
+  height: 50px;
+  font-size: 16pt;
+  font-weight: bolder;
+}
+.font3 {
+  font-size: 11pt;
+  font-weight: bolder;
+  color: #666;
+}
+.font4 {
+  color: #002c5f;
+  font-weight: bolder;
+}
+.elecCar1 {
+  width: 90px;
+  height: 70px;
+}
+.elcimg img {
+  width: 200px;
+  height: 100px;
+}
+
+/* ====================================================== */
+#event {
+  margin-left: 2%;
+  max-width: 100%;
+}
+#event img {
+  text-align: center;
+  width: 345pt;
+}
+.slideSize {
+  width: 380pt;
+}
+.flex-container {
+  display: flex;
+}
+.flex-item {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+/* =========================================================== */
+#footer {
+  width: 100%;
+  background-color: #1c1b1b;
+  color: #999;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.iconImg img {
+  width: 20px;
+}
+.fbutton {
+  width: 200px;
+  background-color: #1c1b1b;
+  color: #999;
+  border-color: #999;
+}
+
+#footer2 {
+  border-top: 1px solid gray;
+  width: 100%;
+  background-color: #1c1b1b;
+  color: #999;
+  font-size: 10px;
+  font-weight: 600;
+}

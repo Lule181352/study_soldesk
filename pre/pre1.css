@@ -1,0 +1,148 @@
+@font-face {
+  font-family: "bitbit";
+  src: url("//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff")
+      format("woff"),
+    url("//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff2")
+      format("woff");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "bitbit";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #111;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+  flex-wrap: wrap;
+}
+.box {
+  position: relative;
+  width: 320px;
+  height: 380px;
+  color: #fff;
+  background: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 30px;
+}
+
+.box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(50deg, #ffbc00, #ff0058);
+}
+.box::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(50deg, #ffbc00, #ff0058);
+  filter: blur(100px);
+}
+
+.box span {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  right: 6px;
+  bottom: 6px;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 2;
+}
+
+/* 안의 내용 */
+
+.content {
+  position: relative;
+  z-index: 10;
+  padding: 15px;
+  font-size: 28px;
+  text-align: center;
+}
+
+.content:nth-child(1) {
+  padding: 15px;
+  border-bottom: 3px solid rgb(215, 51, 51);
+  font-size: 40px;
+}
+.content:nth-child(2) {
+  padding-bottom: 0px;
+}
+.content:nth-child(3) {
+  padding-top: 0px;
+}
+.content:nth-child(4) {
+  padding-bottom: 0px;
+}
+.content:nth-child(5) {
+  padding-top: 0px;
+}
+
+.content input {
+  border: none;
+  border-radius: 9px;
+  width: 70%;
+  height: 40px;
+  font-size: 15pt;
+  text-align: center;
+  font-family: "bitbit";
+}
+
+input:invalid {
+  animation: shake 0.3s;
+}
+@keyframes shake {
+  25% {
+    transform: translateX(4px);
+  }
+  25% {
+    transform: translateY(4px);
+  }
+  50% {
+    transform: translateX(-4px);
+  }
+  75% {
+    transform: translateX(4px);
+  }
+}
+
+.item1 {
+  border: none;
+  border-radius: 9px;
+  width: 70%;
+  height: 40px;
+  font-size: 15pt;
+  text-align: center;
+  font-family: "bitbit";
+}
+
+.content button {
+  border: none;
+  border-radius: 9px;
+  width: 40%;
+  height: 40px;
+  font-size: 15pt;
+  text-align: center;
+  font-family: "bitbit";
+}

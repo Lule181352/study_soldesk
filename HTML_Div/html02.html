@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .container {
+      display: flex;
+      /* flex-direction: column; */
+      background-color: yellow;
+      /* display: inline-flex; */
+      flex-wrap: wrap;
+      height: 500px;
+    }
+
+    .item {
+      /* flex-basis: 150px; */
+      /* width: 100px; */
+      /* word-wrap: break-word; */
+      /* flex-grow: 0;  */
+      border: 1px solid red;
+      /* flex-shrink: 1; 기본값 */
+      /* flex: 1 1 40%;*/
+      align-self: center;
+    }
+    .item:nth-child(2) {
+      z-index: 1;
+      transform: scale(2);
+    }
+
+    /* 
+    .item:nth-child(1) {
+      flex-shrink: 0;
+      width: 100px;
+    }
+    .item:nth-child(2) {
+      flex-grow: 1;
+    } */
+    /* .item:nth-child(3) {
+      flex-grow: 1;
+    } */
+  </style>
+  <body>
+    <div class="container">
+      <div class="item">AAAA</div>
+      <div class="item">BBBB</div>
+      <div class="item">CCCC</div>
+      <div class="item">DDDD</div>
+      <div class="item">EEEE</div>
+      <div class="item">FFFF</div>
+      <div class="item">GGGG</div>
+      <div class="item">HHHH</div>
+      <div class="item">IIII</div>
+      <div class="item">JJJJ</div>
+    </div>
+  </body>
+</html>

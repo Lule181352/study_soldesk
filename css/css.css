@@ -1,0 +1,37 @@
+a {
+  font-size: 10pt;
+  color: red;
+}
+
+a:link {
+  color: blank;
+}
+a:visited {
+  color: gold;
+}
+
+a,
+p {
+  background-color: rgb(122, 250, 122);
+}
+
+p .a2 {
+  font-weight: 900;
+  font-size: 20pt;
+}
+
+input {
+  width: 200px;
+  height: 50px;
+  border-color: pink;
+  border-width: 10px;
+  border-radius: 30px;
+  font-size: 30px;
+}
+
+input:focus {
+  background-color: rgb(255, 255, 255);
+  outline-color: blue;
+  width: 250px;
+  height: 60px;
+}
